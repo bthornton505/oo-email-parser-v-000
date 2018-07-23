@@ -11,6 +11,7 @@ class EmailParser
   end 
   
   def parse
+    # I should be able to parse an email that has either a comma or whitespace 
     
     
   end 
