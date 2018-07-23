@@ -14,6 +14,6 @@ class EmailParser
     # I should be able to parse an email that is separated either with a comma or whitespace 
     @emails.split.map do |email|
       email.split(",")
-    end
+    end.flatten
   end 
 end 
